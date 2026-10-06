@@ -1,0 +1,22 @@
+[project]
+name = "project-forecast"
+version = "0.1.0"
+description = "Here, we will study how to generate forecasts"
+readme = "README.md"
+authors = [
+    { name = "EddyGiusepe", email = "eddychirinos.unac@gmail.com" }
+]
+requires-python = ">=3.13.7, <3.14"
+dependencies = [
+    "ipykernel==7.4.0",
+    "ipywidgets==8.1.9",
+    "nbformat==5.11.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff==0.16.10",
+]
+
+[tool.ruff]
+extend = "ruff.toml"
